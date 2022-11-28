@@ -284,7 +284,11 @@ footer {
     padding-left: 10px;
   }
 
-  .box {
+  .box-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     padding-bottom: 1em;
   }
 
